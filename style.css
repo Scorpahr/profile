@@ -1,0 +1,73 @@
+/* basics css */
+html {
+  background-image: url("images/fromage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
+body {
+  color: #363b4e;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h1, h2 {
+  font-family: cursive;
+}
+h1 {
+  color: #0f2c96;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #6c1d1d;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* class css */
+
+.container {
+  background-color: #c2c4ca;
+  margin: 20px 25% auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.btn-yellow {
+  background-color: #FFE79B;
+  color: #9336B4;
+  padding: 10px 20px;
+  border-radius: 5px;
+  min-width: 100%;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.btn-yellow:hover {
+  color: black;
+}
+
+.card {
+  background-color: #f8f5f5;
+  margin: 10px;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.circle {
+  border-radius: 50%;
+}
